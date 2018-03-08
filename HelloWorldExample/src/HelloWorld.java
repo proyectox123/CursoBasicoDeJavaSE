@@ -4,6 +4,7 @@ public class HelloWorld {
         System.out.println("Hello world!!!!");
 
         primitiveData();
+        castVariables();
     }
 
     private static void primitiveData(){
@@ -22,6 +23,24 @@ public class HelloWorld {
 
         //Lògicos
         boolean isVisible = false;//2 bytes
+    }
+
+    private static void castVariables(){
+        byte b = 6;
+        short s = b;
+        b = (byte) s;
+
+        int i = 1;
+        double d = 2.8;
+        i = (int) d;
+
+        int code = 97;
+        char codeASCII = (char) code;
+
+        short number = 300;
+        byte numberBy = (byte) number;
+
+        System.out.println(numberBy);
     }
 
 }
