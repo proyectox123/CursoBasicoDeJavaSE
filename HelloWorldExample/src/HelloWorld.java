@@ -7,7 +7,9 @@ public class HelloWorld {
         //castVariables();
         //arrayData();
         //searchElementsInArrays();
-        arithmeticOperators();
+        //arithmeticOperators();
+        //
+        relationalOperators();
     }
 
     private static void primitiveData(){
@@ -98,5 +100,24 @@ public class HelloWorld {
         f += g;
         System.out.println("El valor de f es: " + f);
 
+    }
+
+    private static void relationalOperators(){
+        int q = 5;
+        int p = 4;
+
+        System.out.println("q > p -> " + (q > p));
+        System.out.println("q < p -> " + (q < p));
+
+        System.out.println("q >= p -> " + (q >= p));
+        System.out.println("q <= p -> " + (q <= p));
+
+        boolean n = false;
+        boolean m = true;
+
+        System.out.println("n && m -> " + (n && m));
+        System.out.println("n || m -> " + (n || m));
+        System.out.println("!n -> " + (!n));
+        System.out.println("!m -> " + (!m));
     }
 }
