@@ -10,8 +10,10 @@ public class HelloWorld {
         //arithmeticOperators();
         //
         //relationalOperators();
-        flowControlIfElse();
-        flowControlSwitch();
+        //flowControlIfElse();
+        //flowControlSwitch();
+        flowControlWhile();
+        flowControlDoWhile();
     }
 
     private static void primitiveData(){
@@ -178,5 +180,21 @@ public class HelloWorld {
             default:
                 break;
         }
+    }
+
+    private static void flowControlWhile(){
+        int e = 1;
+        while(e++ <= 5){
+            System.out.println("e = "+ e);
+        }
+
+        int a = 1;
+        while(++a <= 5){
+            System.out.println("a = "+ a);
+        }
+    }
+
+    private static void flowControlDoWhile(){
+
     }
 }
