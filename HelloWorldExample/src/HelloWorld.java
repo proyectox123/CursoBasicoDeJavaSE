@@ -5,6 +5,7 @@ public class HelloWorld {
 
         primitiveData();
         castVariables();
+        arrayData();
     }
 
     private static void primitiveData(){
@@ -43,4 +44,17 @@ public class HelloWorld {
         System.out.println(numberBy);
     }
 
+    private static void arrayData(){
+        int[] arrayInt = new int[3];
+        double arrayDouble[];
+
+        int[][] array2D = new int[2][3];
+
+        int[][][] array3D = new int[3][3][2];
+
+        char[][] names = {
+                {'M', 'T', 'W'},
+                {'M', 'T', 'W'}
+        };
+    }
 }
