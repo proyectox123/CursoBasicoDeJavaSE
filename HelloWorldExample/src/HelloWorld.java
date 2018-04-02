@@ -9,7 +9,9 @@ public class HelloWorld {
         //searchElementsInArrays();
         //arithmeticOperators();
         //
-        relationalOperators();
+        //relationalOperators();
+        flowControlIfElse();
+        flowControlSwitch();
     }
 
     private static void primitiveData(){
@@ -119,5 +121,62 @@ public class HelloWorld {
         System.out.println("n || m -> " + (n || m));
         System.out.println("!n -> " + (!n));
         System.out.println("!m -> " + (!m));
+    }
+
+    private static void flowControlIfElse(){
+        int q = 5;
+        int p = 4;
+
+        if(q > p){
+            System.out.println("Si es mayor");
+        }else if(q == p){
+            System.out.println("Es igual");
+        }else{
+            System.out.println("No es mayor");
+        }
+    }
+
+    private static void flowControlSwitch(){
+        int month = 8;
+        switch (month){
+            case 1:
+                System.out.println("January");
+                break;
+            case 2:
+                System.out.println("February");
+                break;
+            case 3:
+                System.out.println("March");
+                break;
+            case 4:
+                System.out.println("April");
+                break;
+            case 5:
+                System.out.println("May");
+                break;
+            case 6:
+                System.out.println("June");
+                break;
+            case 7:
+                System.out.println("July");
+                break;
+            case 8:
+                System.out.println("August");
+                break;
+            case 9:
+                System.out.println("September");
+                break;
+            case 10:
+                System.out.println("October");
+                break;
+            case 11:
+                System.out.println("November");
+                break;
+            case 12:
+                System.out.println("December");
+                break;
+            default:
+                break;
+        }
     }
 }
