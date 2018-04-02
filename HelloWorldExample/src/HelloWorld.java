@@ -13,8 +13,9 @@ public class HelloWorld {
         //flowControlIfElse();
         //flowControlSwitch();
         //flowControlWhile();
-        flowControlFor();
-        flowControlForEach();
+        //flowControlFor();
+        //flowControlForEach();
+        flowControlNestedFor();
     }
 
     private static void primitiveData(){
@@ -216,6 +217,56 @@ public class HelloWorld {
 
         for (char c: names){
             System.out.println(c);
+        }
+    }
+
+    private static void flowControlNestedFor(){
+        int array[][][] = {
+                {
+                    {1,2,3,4,5},
+                    {6,7,8,9,10},
+                    {11,12,13,14,15}
+                },
+                {
+                    {16,17,18,19,20},
+                    {21,22,23,24,25},
+                    {26,27,28,29,30}
+                }
+        };
+
+        flowControlNestedFor(array);
+    }
+
+    private static void flowControlNestedFor(int[][][] array){
+        /*
+        for (int i=0;i<array.length;i++){
+            flowControlNestedFor(array[i]);
+        }
+         */
+        for (int[][] anArray : array) {
+            flowControlNestedFor(anArray);
+        }
+    }
+
+    private static void flowControlNestedFor(int[][] array){
+        /*
+        for(int j=0;j<array.length;j++){
+            flowControlNestedFor(array[j]);
+        }
+         */
+        for (int[] anArray : array) {
+            flowControlNestedFor(anArray);
+        }
+    }
+
+    private static void flowControlNestedFor(int[] array){
+        /*
+        for(int k=0;k<array.length;k++){
+            System.out.println(array[k]);
+        }
+         */
+        for (int anArray : array) {
+            System.out.println(anArray);
         }
     }
 }
