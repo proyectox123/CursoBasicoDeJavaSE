@@ -12,8 +12,9 @@ public class HelloWorld {
         //relationalOperators();
         //flowControlIfElse();
         //flowControlSwitch();
-        flowControlWhile();
-        flowControlDoWhile();
+        //flowControlWhile();
+        flowControlFor();
+        flowControlForEach();
     }
 
     private static void primitiveData(){
@@ -194,7 +195,27 @@ public class HelloWorld {
         }
     }
 
-    private static void flowControlDoWhile(){
+    private static void flowControlFor(){
+        char[] names = new char[5];
+        names[0] = 'h';
+        names[1] = 'o';
+        names[2] = 'l';
+        names[3] = 'a';
 
+        for(int c = 0; c < names.length; c++){
+            System.out.println("c["+c+"] = "+ names[c]);
+        }
+    }
+
+    private static void flowControlForEach(){
+        char[] names = new char[5];
+        names[0] = 'h';
+        names[1] = 'o';
+        names[2] = 'l';
+        names[3] = 'a';
+
+        for (char c: names){
+            System.out.println(c);
+        }
     }
 }
