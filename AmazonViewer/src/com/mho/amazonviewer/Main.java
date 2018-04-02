@@ -1,9 +1,11 @@
 package com.mho.amazonviewer;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args){
-        int exit = 0;
+        int exit;
         do{
             System.out.println("Welcome to Amazon Viewer!!!");
             System.out.println();
@@ -13,6 +15,35 @@ public class Main {
             System.out.println("3. Books");
             System.out.println("4. Magazines");
             System.out.println("0. Exit");
+
+            int option = getUserOption();
+
+            switch (option){
+                case 0:
+                    exit = 0;
+                    break;
+                case 1:
+                    exit = 1;
+                    break;
+                case 2:
+                    exit = 1;
+                    break;
+                case 3:
+                    exit = 1;
+                    break;
+                case 4:
+                    exit = 1;
+                    break;
+                default:
+                    exit = 1;
+                    break;
+            }
+
         }while(exit != 0);
+    }
+
+    private static int getUserOption(){
+        Scanner sc = new Scanner(System.in);
+        return sc.nextInt();
     }
 }
