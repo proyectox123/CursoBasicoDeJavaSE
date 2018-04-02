@@ -3,9 +3,10 @@ public class HelloWorld {
     public static void main(String[] args){
         System.out.println("Hello world!!!!");
 
-        primitiveData();
-        castVariables();
-        arrayData();
+        //primitiveData();
+        //castVariables();
+        //arrayData();
+        searchElementsInArrays();
     }
 
     private static void primitiveData(){
@@ -56,5 +57,23 @@ public class HelloWorld {
                 {'M', 'T', 'W'},
                 {'M', 'T', 'W'}
         };
+    }
+
+    private static void searchElementsInArrays(){
+        char[] names = new char[5];
+        names[0] = 'h';
+        names[1] = 'o';
+        names[2] = 'l';
+        names[3] = 'l';
+
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
+        System.out.println(names[4]);
+
+        char[][][][] monkey = new char[2][3][2][2];
+        monkey[1][0][0][1] = 'm';
+        System.out.println(monkey[1][0][0][1]);
     }
 }
