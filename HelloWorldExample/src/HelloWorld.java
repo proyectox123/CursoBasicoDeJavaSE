@@ -6,7 +6,8 @@ public class HelloWorld {
         //primitiveData();
         //castVariables();
         //arrayData();
-        searchElementsInArrays();
+        //searchElementsInArrays();
+        arithmeticOperators();
     }
 
     private static void primitiveData(){
@@ -75,5 +76,27 @@ public class HelloWorld {
         char[][][][] monkey = new char[2][3][2][2];
         monkey[1][0][0][1] = 'm';
         System.out.println(monkey[1][0][0][1]);
+    }
+
+    private static void arithmeticOperators(){
+        int a = 1;
+        int aa = a + a;
+        System.out.println("El valor de aa es: " + aa);
+
+        double x = 2.56;
+        int y = 9;
+        float w = (float) x + y;
+        System.out.println("El valor de w es: " + w);
+        System.out.println("El valor de w * 2 es: " + (w * 2));
+
+        double k = 4 / 0.00002;
+        System.out.println("El valor de k es: " + k);
+        System.out.println(7%2);
+
+        int f = 2;
+        int g = 3;
+        f += g;
+        System.out.println("El valor de f es: " + f);
+
     }
 }
