@@ -7,12 +7,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
+        showMenu();
+    }
 
-        Movie movie = new Movie();
-        movie.title = "Coco";
-        movie.duration = 120;
-
-        int exit;
+    private static void showMenu(){
+        int exit = 0;
         do{
             System.out.println("Welcome to Amazon Viewer!!!");
             System.out.println();
@@ -27,25 +26,63 @@ public class Main {
 
             switch (option){
                 case 0:
-                    exit = 0;
                     break;
                 case 1:
-                    exit = 1;
+                    showMovies();
                     break;
                 case 2:
-                    exit = 1;
+                    showSeries();
                     break;
                 case 3:
-                    exit = 1;
+                    showBooks();
                     break;
                 case 4:
-                    exit = 1;
+                    showMagazines();
                     break;
                 default:
-                    exit = 1;
                     break;
             }
 
+        }while(exit != 0);
+    }
+
+    public static void showMovies(){
+        int exit = 0;
+        do{
+            System.out.println();
+            System.out.println(":: MOVIES ::");
+            System.out.println();
+        }while(exit != 0);
+    }
+
+    public static void showSeries(){
+        int exit = 0;
+        do{
+            System.out.println();
+            System.out.println(":: SERIES ::");
+            System.out.println();
+        }while(exit != 0);
+    }
+
+    public static void showChapters(){
+
+    }
+
+    public static void showBooks(){
+        int exit = 0;
+        do{
+            System.out.println();
+            System.out.println(":: BOOKS ::");
+            System.out.println();
+        }while(exit != 0);
+    }
+
+    public static void showMagazines(){
+        int exit = 0;
+        do{
+            System.out.println();
+            System.out.println(":: MAGAZINES ::");
+            System.out.println();
         }while(exit != 0);
     }
 
