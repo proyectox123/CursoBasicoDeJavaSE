@@ -2,6 +2,7 @@ package com.mho.amazonviewer;
 
 import com.mho.amazonviewer.model.Movie;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -20,6 +21,8 @@ public class Main {
             System.out.println("2. Series");
             System.out.println("3. Books");
             System.out.println("4. Magazines");
+            System.out.println("5. Report");
+            System.out.println("6. Report Today");
             System.out.println("0. Exit");
 
             int option = getUserOption();
@@ -38,6 +41,12 @@ public class Main {
                     break;
                 case 4:
                     showMagazines();
+                    break;
+                case 5:
+                    makeReport();
+                    break;
+                case 6:
+                    makeReport(new Date());
                     break;
                 default:
                     break;
@@ -65,7 +74,12 @@ public class Main {
     }
 
     public static void showChapters(){
-
+        int exit = 0;
+        do{
+            System.out.println();
+            System.out.println(":: CHAPTERS ::");
+            System.out.println();
+        }while(exit != 0);
     }
 
     public static void showBooks(){
@@ -84,6 +98,14 @@ public class Main {
             System.out.println(":: MAGAZINES ::");
             System.out.println();
         }while(exit != 0);
+    }
+
+    public static void makeReport(){
+
+    }
+
+    public static void makeReport(Date date){
+
     }
 
     private static int getUserOption(){
