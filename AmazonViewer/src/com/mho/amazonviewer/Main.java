@@ -1,10 +1,17 @@
 package com.mho.amazonviewer;
 
+import com.mho.amazonviewer.model.Movie;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args){
+
+        Movie movie = new Movie();
+        movie.title = "Coco";
+        movie.duration = 120;
+
         int exit;
         do{
             System.out.println("Welcome to Amazon Viewer!!!");
@@ -43,7 +50,12 @@ public class Main {
     }
 
     private static int getUserOption(){
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+        try{
+            Scanner sc = new Scanner(System.in);
+            return Integer.parseInt(sc.nextLine());
+        }catch (Exception e){
+            e.printStackTrace();
+            return -1;
+        }
     }
 }
