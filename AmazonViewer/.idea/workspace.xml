@@ -15,10 +15,31 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="446">
+              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Serie.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/model/Serie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -133,14 +154,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Film.java" />
-        <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Serie.java" />
-        <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/Main.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Magazine.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/IVisualizable.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Chapter.java" />
         <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mho/amazonviewer/model/Serie.java" />
       </list>
     </option>
   </component>
@@ -365,7 +386,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -525,35 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/model/Serie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -686,6 +678,35 @@
             <element signature="e#849#850#0" expanded="true" />
             <element signature="e#1425#1426#0" expanded="true" />
             <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mho/amazonviewer/model/Serie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>

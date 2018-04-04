@@ -1,10 +1,12 @@
 package com.mho.amazonviewer.model;
 
+import java.util.ArrayList;
+
 public class Serie extends Film{
 
     private int id;
     private int seasonQuantity;
-    private Chapter[] chapters;
+    private ArrayList<Chapter> chapters;
 
     public Serie(String title, String genre, String creator, int duration, int seasonQuantity) {
         super(title, genre, creator, duration);
@@ -23,11 +25,11 @@ public class Serie extends Film{
         this.seasonQuantity = seasonQuantity;
     }
 
-    public Chapter[] getChapters() {
+    public ArrayList<Chapter> getChapters() {
         return chapters;
     }
 
-    public void setChapters(Chapter[] chapters) {
+    public void setChapters(ArrayList<Chapter> chapters) {
         this.chapters = chapters;
     }
 }

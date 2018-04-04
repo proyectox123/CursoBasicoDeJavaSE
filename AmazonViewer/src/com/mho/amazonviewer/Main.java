@@ -10,9 +10,15 @@ public class Main {
     public static void main(String[] args){
         Movie movie =
                 new Movie("Coco", "Animation", "Lee Unkrich", 120, (short) 2017);
+        Movie movie2 =
+                new Movie("Coco", "Animation", "Lee Unkrich", 120, (short) 2017);
+
+        System.out.println(movie == movie2);
+        System.out.println(movie.equals(movie2));
+
         System.out.println(movie.toString());
 
-        showMenu();
+        //showMenu();
     }
 
     private static void showMenu(){
