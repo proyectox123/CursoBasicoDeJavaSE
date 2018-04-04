@@ -1,6 +1,8 @@
 package com.mho.amazonviewer.model;
 
-public class Movie extends Film{
+import java.util.Date;
+
+public class Movie extends Film implements IVisualizable{
 
     private int id;
     private int timeViewed;
@@ -35,5 +37,19 @@ public class Movie extends Film{
                 + "\nYear: " + getYear()
                 + "\nCreator: " + getCreator()
                 + "\nDuration: " + getDuration();
+    }
+
+    @Override
+    public Date startToSee(Date initDate) {
+        return initDate;
+    }
+
+    @Override
+    public void stopToSee(Date initDate, Date finalDate) {
+        if(finalDate.getTime() > initDate.getSeconds()){
+            setTimeViewed(finalDate.getSeconds() - initDate.getSeconds());
+        }else{
+            setTimeViewed(0);
+        }
     }
 }
