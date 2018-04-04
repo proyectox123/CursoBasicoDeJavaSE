@@ -27,4 +27,13 @@ public class Movie extends Film{
     public void setTimeViewed(int timeViewed) {
         this.timeViewed = timeViewed;
     }
+
+    @Override
+    public String toString() {
+        return "Title: " + getTitle()
+                + "\nGenre: " + getGenre()
+                + "\nYear: " + getYear()
+                + "\nCreator: " + getCreator()
+                + "\nDuration: " + getDuration();
+    }
 }

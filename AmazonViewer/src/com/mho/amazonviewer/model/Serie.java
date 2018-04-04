@@ -4,7 +4,7 @@ public class Serie extends Film{
 
     private int id;
     private int seasonQuantity;
-    private Chapter[] chapter;
+    private Chapter[] chapters;
 
     public Serie(String title, String genre, String creator, int duration, int seasonQuantity) {
         super(title, genre, creator, duration);
@@ -21,5 +21,13 @@ public class Serie extends Film{
 
     public void setSeasonQuantity(int seasonQuantity) {
         this.seasonQuantity = seasonQuantity;
+    }
+
+    public Chapter[] getChapters() {
+        return chapters;
+    }
+
+    public void setChapters(Chapter[] chapters) {
+        this.chapters = chapters;
     }
 }

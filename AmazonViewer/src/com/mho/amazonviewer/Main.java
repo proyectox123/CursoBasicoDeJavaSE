@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args){
-        Movie movie = new Movie("Coco", "Animation", (short) 2017);
-        movie.setTitle("Rambo");
-        movie.showData();
+        Movie movie =
+                new Movie("Coco", "Animation", "Lee Unkrich", 120, (short) 2017);
+        System.out.println(movie.toString());
 
         showMenu();
     }
